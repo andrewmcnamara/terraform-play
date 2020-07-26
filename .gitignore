@@ -1,0 +1,19 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+.terraform
+# Variables files with secrets
+*.tfvars
+
+# Plan files
+*.plan
+
+# Certificate files
+keys
+*.pem
+*.pfx
+*.crt
+*.key
+.history
+
+lock.json
